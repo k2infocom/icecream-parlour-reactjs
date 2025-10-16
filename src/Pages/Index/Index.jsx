@@ -50,7 +50,7 @@ function Index() {
                         <img src={heroImage} alt="header-image" className="w-full sm:w-[400px] 2xl:w-[600px]" />
                     </div>
 
-                    <img src={element01} alt="element1" className="w-[80px] h-[80px] absolute -top-[-80%] left-5" />
+                  
                     <img src={element02} alt="element2" className="w-[80px] h-[80px] absolute -top-[-20%] lg:left-[90%] left-[65%] hidden sm:flex" />
                     <img src={element03} alt="element3" className="w-[90px] h-[90px] absolute -top-[-10%] left-5" />
                     <img src={element04} alt="element3" className="w-[90px] h-[90px] absolute -top-[-85%] sm:-top-[-80%] lg:left-[85%] left-[-75%] z-1" />

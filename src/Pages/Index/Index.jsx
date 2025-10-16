@@ -3,7 +3,7 @@ import Nav from "../../Components/Nav/Nav";
 
 import heroImage from './../../assets/rev_home3_01.png'
 
-import element01 from './../../assets/H5_decor4.png'
+
 import element02 from './../../assets/rev_home3_04.png'
 import element03 from './../../assets/rev_home3_05.png'
 import element04 from './../../assets/rev_home3_06.png'

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia:wght@100..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-dancing: Dancing Script;
+    --font-Kalnia: Kalnia;
+}
+
+*{
+    scroll-behavior: smooth
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts Link Dancing Script */
+
+
+.Nav-link {
+    @apply text-base hover:text-red-600 font-medium;
+}
+
+.nav-wrapper {
+    @apply border-b pb-5 pt-5 px-20 md:border-none md:p-0;
+}
+
+.btn {
+    @apply h-[40px] rounded-lg w-[120px] bg-red-400 text-white cursor-pointer transition-all duration-700 hover:bg-red-200 hover:text-red-800;
+}
+
+.nav-btn {
+    @apply hidden sm:block;
+}
+
+.header-btn {
+    @apply rounded-3xl h-[48px] w-[150px] bg-white text-red-600 hover:bg-red-600 hover:text-white;
+}
+
+.bar {
+    @apply w-[40px] flex md:hidden justify-center items-center;
+}
+
+.show-menu {
+    @apply left-[0%];
+}
+
+section {
+    @apply w-full px-[12%] py-[80px] flex flex-col;
+}
+
+.section_heading {
+    @apply text-center text-5xl w-full font-semibold font-Kalnia;
+}
+
+.Slide_text {
+    @apply text-center w-full text-base font-semibold inline-block group-hover:hidden ;
+}
+
+.headerbtn {
+    @apply rounded-3xl h-[48px] w-[150px] bg-white text-red-600 hover:bg-red-600 hover:text-white; 
+}
+
+.icon-card {
+    @apply h-[40px] w-[40px] block flex items-center justify-center bg-white rounded-3xl cursor-pointer;
+}
+
+.card:hover .icons-card {
+    @apply flex;
+}
